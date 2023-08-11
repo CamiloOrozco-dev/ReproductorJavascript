@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reproductor de Música Camilo</title>
+</head>
+<body>
+
+   <main>
+    <div class="container">
+        <div class="marco">
+            <div class="caratulaCancion">
+                <button onclick="mostrarPlaylist()">Mostrar</button>
+            </div>
+            <div class="reproductor">
+                <div class="titulo">
+                    <h2 class="nombre">Ninguna Cancion en reproducción</h2>
+                    <h3 class="artista"></h3>
+                </div>
+                <div class="controles">
+
+                </div>
+            </div>
+            <div class="infoCancion"></div>
+        </div>
+        <aside class="playlist">
+            <table>
+                <thead>
+                    <tr>
+                        <th>En lista</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="numeroCancion"></th>
+                        <td class="Cancion"></td>
+                    </tr>
+                </tbody>
+        </table>
+
+        </aside>
+    </div>
+   </main>
+    <script src="script.js"></script>
+</body>
+</html>
